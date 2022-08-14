@@ -1,6 +1,6 @@
-import open_save
-from bs4 import BeautifulSoup
-adress = input('Enter url: ')
-html = open_save.open_html(adress)
+import func as opse
 
-open_save.make_file(adress)
+adress = input('Enter url: ')
+html = opse.open_html(adress)
+
+opse.save_html(adress)
